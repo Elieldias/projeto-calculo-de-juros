@@ -1,0 +1,88 @@
+/* styles.css */
+
+/* ==============================
+   Reset Básico e Configuração Global
+   ============================== */
+   * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7fa; /* Fundo da página */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* ==============================
+     Container Principal da Calculadora
+     ============================== */
+  .container {
+    background-color: #ffffff; /* Fundo da calculadora */
+    padding: 20px 30px; /* Aumentado o padding para maior espaçamento interno */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 320px;
+    text-align: center;
+  }
+  
+  /* ==============================
+     Título e Textos
+     ============================== */
+  h1 {
+    color: #00796b; /* Verde escuro para o título */
+    margin-bottom: 20px; /* Espaçamento abaixo do título */
+  }
+  
+  form label {
+    display: block;
+    margin-top: 15px; /* Espaçamento entre labels */
+    font-weight: bold;
+    color: #004d40; /* Verde escuro para as labels */
+  }
+  
+  /* ==============================
+     Campos de Entrada
+     ============================== */
+  form input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px; /* Aumentado o espaçamento entre os campos de entrada */
+    border: 1px solid #b2dfdb; /* Borda verde claro */
+    border-radius: 4px;
+  }
+  
+  /* ==============================
+     Botão de Ação
+     ============================== */
+  button {
+    background-color: #00796b; /* Verde escuro */
+    color: #ffffff;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    margin-top: 15px; /* Espaçamento entre o último campo e o botão */
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #004d40; /* Verde mais escuro para o hover */
+  }
+  
+  /* ==============================
+     Exibição de Resultado
+     ============================== */
+  #result {
+    margin-top: 25px; /* Espaçamento extra para o resultado */
+    font-size: 18px;
+    color: #00796b; /* Verde escuro para o resultado */
+  }
+  
